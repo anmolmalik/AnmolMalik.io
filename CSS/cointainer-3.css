@@ -1,0 +1,47 @@
+.cointainer-3{
+  display: grid;
+  grid-template-columns:  1fr 1fr ;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+
+.cointainer-3-text {
+  font-family: 'Quicksand', sans-serif;
+  display: block;
+  margin: auto auto auto 4rem;
+  
+}
+
+
+.cointainer-3-img{
+  display: block;
+  margin: auto;
+  height: 325px;
+  width: 325px;
+}
+
+@media(max-width:800px){
+  .cointainer-3{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+
+
+@media(max-width:800px){
+  .cointainer-3-text{ 
+    display: block;
+    margin: 60px 20px;
+    width: 100%;
+  }
+}
+
+
+@media(max-width: 700px) {
+  .cointainer-3-img {
+      display: block;
+      margin: auto;
+  }
+}
